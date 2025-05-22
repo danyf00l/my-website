@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт - О нас</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">Мой Сайт</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="gallery.html" class="active">Галерея</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+    	<div class="gallery-container">
+        	<h1>Галерея изображений</h1>
+        	<img class="gallery-image" id="currentImage" src="" alt="Текущее изображение">
+        	<div class="gallery-controls">
+            		<button class="gallery-btn" id="prevBtn">Назад</button>
+            		<span id="imageCounter">1 / 4</span>
+            		<button class="gallery-btn" id="nextBtn">Вперед</button>
+		</div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Мой Сайт. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="../scripts/main.js"></script>
+</body>
+</html>
